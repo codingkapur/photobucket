@@ -1,3 +1,4 @@
+import "./styles/output.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
 import { lazy, Suspense } from "react";

@@ -55,6 +55,14 @@ useHistory is not useNavigate
 
 ### Tailwind CSS
 
+Installation has been a pain in the butt. 
+
+This link helped:
+
+"dev.to/saviomartin/set-up-tailwind-in-react-the-fastest-way-2a4d"
+
+The offical website says a way for an "Upcoming version of Create React App
+
 
 ------------------------
 ## Packages Used
@@ -66,3 +74,5 @@ useHistory is not useNavigate
 5. tailwindcss (dev dep)
 6. prop-types (dev dep)
 7. postcss-cli (dev dep)
+8. run-all (dev dep)
+9. autoprefixer (dev dep)

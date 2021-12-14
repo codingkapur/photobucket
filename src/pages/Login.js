@@ -1,7 +1,7 @@
 import { useContext, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import FirebaseContext from "../context/firebase";
-import '../styles/output.css';
+
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setpassword] = useState("");
