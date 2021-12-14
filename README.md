@@ -33,7 +33,11 @@ A photo sharing application like Instagram
             - (app, tailwind)
 
 ---------------------------------------------
-REACT-ROUTER-DOM
+------------------------
+## Tech Specific Notes
+------------------------
+
+### REACT-ROUTER-DOM
 
 This application is client side rendered. So when we use react-router-dom, we go to a specific path and it works as long as the page is not refreshed with that path, because that path is requested from the front end to the server, but the server does not exist. 
 
@@ -43,9 +47,14 @@ import {lazy} from react.
 Concepts to read up on: 
     - lazy
     - suspense
-------------------------
-## Tech Specific Notes
-------------------------
+
+Changes in React-Router-Dom v5 to v6:
+
+Switch becomes Routes
+useHistory is not useNavigate
+
+### Tailwind CSS
+
 
 ------------------------
 ## Packages Used
@@ -54,3 +63,6 @@ Concepts to read up on:
 2. firebase
 3. react-loading-skeleton
 4. react-router-dom
+5. tailwindcss (dev dep)
+6. prop-types (dev dep)
+7. postcss-cli (dev dep)
