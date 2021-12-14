@@ -22,3 +22,9 @@ A photo sharing application like Instagram
 ## Tech Specific Notes
 ------------------------
 
+------------------------
+## Packages Used
+------------------------
+1. date-fns
+2. firebase
+3. react-loading-skeleton
