@@ -52,6 +52,8 @@ Changes in React-Router-Dom v5 to v6:
 
 Switch becomes Routes
 useHistory is not useNavigate
+const history = useHistory(); becomes navigate = useNavigate();
+history.push('page url') becomes navigate('page url)
 
 ### Tailwind CSS
 
