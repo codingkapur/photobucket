@@ -5,9 +5,8 @@ import Sidebar from "../components/Sidebar";
 
 const Dashboard = () => {
   useEffect(() => {
-    document.title = "Instagram";
+    document.title = "Pico";
   }, []);
-  console.log("helo")
   return (
     <div className="bg-gray-background">
       <Header />
